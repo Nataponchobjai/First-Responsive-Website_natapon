@@ -1,0 +1,93 @@
+
+p {
+    max-width: 1000px;
+
+}
+.grid {
+    display: grid
+}
+div.container {
+    border: 0px solid red;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   padding: 20px 20px;
+}
+h1 {
+    margin: 50px;
+    color: rgb(239, 243, 247);
+    font-size: 2em;
+}
+p { text-align: center;
+    color: aliceblue;
+    
+}
+
+
+    body {
+        background-color: rgb(110, 106, 106);
+      }
+      
+      @media only screen and (min-width: 992px) {
+        body {
+          background-color: rgb(117, 175, 194);
+        }
+      }
+
+header {
+  background-color: #4FCDC0;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 80px 200px auto 30px;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    line-height: 1.5;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .grid {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr  1fr 1fr;
+    box-sizing: content-box;
+}
+.Line1 {
+  background-color: #4BA8DD;
+}
+
+.Line2 {
+  background-color: #F16830;
+}
+
+.Line3 {
+  background-color: #4FCDC0;
+}
+[class*="Line"] {
+  height: 30px;
+  width: 100%;
+  margin-top: 30px;
+}
+@media (max-width: 992px) {
+  
+header {
+  background-color: #4f81cd;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+}
